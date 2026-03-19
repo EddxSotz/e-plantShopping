@@ -17,7 +17,7 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleContinueShopping = (e) => {   
-    onContinueShopping(); // Call the function passed from App to navigate back to product list
+    onContinueShopping(e); // Call the function passed from App to navigate back to product list
   };
 
   const handleIncrement = (item) => {
